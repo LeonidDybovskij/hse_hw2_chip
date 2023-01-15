@@ -1,5 +1,7 @@
 # Целью данного задания является поиск поиск гистоновых модификаций с помощью анализа ChIP-Seq данных.
 
+[Ссылка на README на русском](README.ru.md)
+
 Все операции были выполнены с терминале Linux с использованием обычного браузерного скачивания (https://www.encodeproject.org/chip-seq-matrix/?type=Experiment&replicates.library.biosample.donor.organism.scientific_name=Homo%20sapiens&assay_title=Histone%20ChIP-seq&assay_title=Mint-ChIP-seq&status=released).
 
 На анализ были взяты данные секвенирования фибробластов (GM23248) для гистоновой метки H3K4me1. Образцы ENCFF182AFY и ENCFF335CQJ были проанализированы на фоне контроля ENCFF569WIS. Все команды в .docx файлах (папка proof). Поскольку выдача FastQC была в пределах нормы, фильтрацию я не проводил. 
