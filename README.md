@@ -16,14 +16,12 @@ Alignment statistics:
 | --- | --- | --- | --- |
 | Number of reads | 36 622 019 | 37 314 930 | 47 833 064 |
 | Uniquely aligned | 1 453 730 (3.97%) | 1 496 129 (4.01%) | 2 039 214 (4.26%) |
-| Not uniquely aligned  | 2 408 769 (6.58%) | 2 601 874 (6.97%) | 4 203 710 (8.79%) |
+| Non-uniquely aligned  | 2 408 769 (6.58%) | 2 601 874 (6.97%) | 4 203 710 (8.79%) |
 | Not aligned | 32 759 520 (89.45%) | 33 216 927 (89.02%) | 41 590 140 (86.95%) |
 
 As can be seen, most of the sequences were not mapped. This is probably due to the fact that only chromosome 14 was taken; the remaining reads are from other parts of the genome.  
 Here it was possible to select unique mapped reads and convert .sam files to binary format, but I did not do this.  
 
-The resulting peaks were compared with ones in ENCODE
-Сравниваем те пики, которые мы получили, с пиками, которые приведены в ENCODE (важно, чтобы версии генома hg38 или hg19) для .bed файла из ENCODE и той хромосомы, которую скачивали выше, сопадали.
-Проанализируйте полученные результаты и приведите свои рассуждения в README.md. Как можно объяснить различия в количестве пересечений?
-
-Полученные диаграммы Венна находятся в папке Intervene. В обоих случаях больше пиковых последовательностей получается при наложении полученного файла на файл .bed из базы ENCODE (ENCFF806LPY). Возможно, средняя длина наших последовательностей получилась короче за счёт не уникально закартированных ридов. 
+Finally, the resulting peaks were compared with ones in ENCODE. The intersection is shown in Venn diagrams (Intervene folder).  
+In both cases, more peak sequences are obtained when the resulting file is superimposed on the .bed file from the ENCODE database (ENCFF806LPY).  
+Perhaps the average length of our sequences was shorter due to non-uniquely mapped reads.
