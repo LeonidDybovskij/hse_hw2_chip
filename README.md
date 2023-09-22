@@ -1,7 +1,5 @@
 # ChIP-Seq data analysis
 
-[This README in russian](README.ru.md)
-
 The goal of this work was to search for histone modifications using ChIP-Seq data analysis.
 
 All operations were performed in the Linux terminal after downloading the data from [here](https://www.encodeproject.org/chip-seq-matrix/?type=Experiment&replicates.library.biosample.donor.organism.scientific_name=Homo%20sapiens&assay_title=Histone%20ChIP-seq&assay_title=Mint-ChIP-seq&status=released).  
