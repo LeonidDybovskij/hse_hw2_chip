@@ -24,4 +24,4 @@ Here it was possible to select unique mapped reads and convert .sam files to bin
 
 Finally, the resulting peaks were compared with ones in ENCODE. The intersection is shown in Venn diagrams (Intervene folder).  
 In both cases, more peak sequences are obtained when the resulting file is superimposed on the .bed file from the ENCODE database (ENCFF806LPY).  
-Perhaps the average length of our sequences was shorter due to non-uniquely mapped reads.
+Perhaps the average length of our sequences was shorter due to non-uniquely mapped reads. 
